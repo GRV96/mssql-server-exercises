@@ -1,1 +1,1 @@
-# mssql-server-exercises
+# MSSQL Server Exercises
