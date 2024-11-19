@@ -8,3 +8,8 @@ services:
       - ./database.env
     ports:
       - 1433:1433
+    volumes:
+      - mssql-exercices:/var/opt/mssql
+
+volumes:
+  mssql-exercices:
