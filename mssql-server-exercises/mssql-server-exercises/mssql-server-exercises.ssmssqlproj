@@ -52,6 +52,12 @@
           <AssociatedConnUserName>SA</AssociatedConnUserName>
           <FullPath>exercise3-crud.sql</FullPath>
         </FileNode>
+        <FileNode Name="exercise4-tsql.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:SA</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>SA</AssociatedConnUserName>
+          <FullPath>exercise4-tsql.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
