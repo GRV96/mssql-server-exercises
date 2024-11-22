@@ -28,6 +28,12 @@
           <AssociatedConnUserName>SA</AssociatedConnUserName>
           <FullPath>create-db-toto.sql</FullPath>
         </FileNode>
+        <FileNode Name="create-table-contact.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:SA</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName>SA</AssociatedConnUserName>
+          <FullPath>create-table-contact.sql</FullPath>
+        </FileNode>
         <FileNode Name="exercise1-database.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:False:SA</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
