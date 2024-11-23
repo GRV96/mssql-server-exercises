@@ -2,7 +2,7 @@ CREATE DATABASE EXERCISE4
 GO
 USE EXERCISE4
 
--- Run script create-table-contact.sql.
+-- Execute script create-table-contact.sql before the next statements.
 
 -- People's age without duplicates
 SELECT DISTINCT age
@@ -64,6 +64,7 @@ SELECT lastName, firstName, birthDate
 FROM Contact
 WHERE MONTH(birthDate) != 8
 
+-- Delete the database
 GO
 USE master
 GO
