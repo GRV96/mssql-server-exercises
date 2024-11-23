@@ -1,40 +1,45 @@
-CREATE DATABASE EXERCISE3;
+CREATE DATABASE EXERCISE3
 GO
-USE EXERCISE3;
+USE EXERCISE3
 
 CREATE TABLE Student(
 lastName VARCHAR(200),
 firstName CHAR(10),
-age INT);
+age INT)
 
 INSERT INTO Student VALUES
-('Marchand', 'Élisabeth', 18),
-('Truchon', 'Mélanie', 16),
+('Marchand', 'Elisabeth', 18),
+('Truchon', 'Melanie', 16),
 ('Teslu', 'Sandrine', 18),
 ('Portail', 'Bruno', 23),
-('Virenque', 'Michel', 22);
-
-SELECT *
-FROM Student;
+('Virenque', 'Michel', 22)
 
 SELECT *
 FROM Student
-WHERE lastName = 'Teslu';
 
+-- The student name Teslu
+SELECT *
+FROM Student
+WHERE lastName = 'Teslu'
+
+-- Set Teslu's age to 17
 UPDATE Student
 SET age = 17
-WHERE lastName = 'Teslu';
+WHERE lastName = 'Teslu'
 
 SELECT *
 FROM Student
-WHERE lastName = 'Teslu';
+WHERE lastName = 'Teslu'
 
+-- Remove Vinrenque Michel
 DELETE FROM Student
-WHERE lastName = 'Virenque' AND firstName = 'Michel';
+WHERE lastName = 'Virenque' AND firstName = 'Michel'
 
 SELECT *
-FROM Student;
+FROM Student
 
-USE MASTER;
+-- Delete the database
 GO
-DROP DATABASE EXERCICE3;
+USE MASTER
+GO
+DROP DATABASE EXERCICE3
