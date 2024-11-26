@@ -1,6 +1,7 @@
 CREATE DATABASE EXERCISE3
 GO
 USE EXERCISE3
+GO
 
 CREATE TABLE Student(
 lastName VARCHAR(200),
@@ -17,7 +18,7 @@ INSERT INTO Student VALUES
 SELECT *
 FROM Student
 
--- The student name Teslu
+-- The student named Teslu
 SELECT *
 FROM Student
 WHERE lastName = 'Teslu'
@@ -42,4 +43,4 @@ FROM Student
 GO
 USE MASTER
 GO
-DROP DATABASE EXERCICE3
+DROP DATABASE EXERCISE3
